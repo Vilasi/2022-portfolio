@@ -5172,3 +5172,14 @@ textarea {
   margin-right: 5px;
 }
 /*# sourceMappingURL=main.70a66962.map*/
+
+a[href="https://www.unsplash.com/"], a[href="http://www.mashup-template.com/"]
+{
+  color: #000;
+}
+
+a[href="https://www.unsplash.com/"]:hover, a[href="http://www.mashup-template.com/"]:hover
+{
+  text-decoration: none;
+  cursor: default;
+}
