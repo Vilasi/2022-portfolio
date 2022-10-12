@@ -76,11 +76,18 @@
                   name="contact"
                   method="post"
                   data-netlify="true"
+                  netlify-honeypot="bot-field"
                   class="reveal-content"
                 >
                   <div class="row">
                     <div class="col-md-7">
                       <div class="form-group">
+                        <p class="hidden">
+                          <label>
+                            Don&rsquo;t fill this out if you&rsquo;re human:
+                            <input name="bot-field" />
+                          </label>
+                        </p>
                         <input
                           type="email"
                           class="form-control"
