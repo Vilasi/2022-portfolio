@@ -5183,3 +5183,16 @@ a[href="https://www.unsplash.com/"]:hover, a[href="http://www.mashup-template.co
   text-decoration: none;
   cursor: default;
 }
+
+.typewrite p j {
+  color: black;
+  /* font-family: monospace; */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typewriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /*Gives that scrolling effect as the typing happens*/
+  letter-spacing: 0.5em; /* Adjust as needed */
+  -webkit-animation: typing 3.5s steps(30, end),
+    blink-caret 0.5s step-end infinite;
+  animation: typing 1.5s steps(50, end), blink-caret 0.5s step-end infinite;
+}
