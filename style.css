@@ -1,0 +1,16 @@
+.custom-hero-sizing {
+  font-size: 11rem;
+  backdrop-filter: blur(2px);
+}
+
+/* Write a media query for screens below 650px */
+@media (max-width: 650px) {
+  .custom-hero-sizing {
+    font-size: 7rem;
+  }
+}
+@media (max-width: 450px) {
+  .custom-hero-sizing {
+    font-size: 5rem;
+  }
+}
