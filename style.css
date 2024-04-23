@@ -1,6 +1,10 @@
 .custom-hero-sizing {
   font-size: 11rem;
-  backdrop-filter: blur(2px);
+  /* backdrop-filter: blur(2px); */
+}
+
+.bg-black {
+  background: black;
 }
 
 .font-size-lg {

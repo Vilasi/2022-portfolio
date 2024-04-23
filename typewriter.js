@@ -63,27 +63,12 @@ class TxtType {
 }
 
 window.onload = function () {
-  //domElements = p.typewrite
   const domElements = document.getElementsByClassName('typewrite');
-  // try {
-  //   console.log(
-  //     `"domElements[0].getAttribute('data-type'); : "${domElements[0].getAttribute(
-  //       'data-type'
-  //     )}`
-  //   );
-  //   console.log(
-  //     `"domElements[0].getAttribute('data-period'); :"${domElements[0].getAttribute(
-  //       'data-period'
-  //     )}`
-  //   );
-  // } catch (error) {
-  //   console.warn('Error caught');
-  // }
+
   for (let i = 0; i < domElements.length; i++) {
     let scrollingText = domElements[i].getAttribute('data-type');
     let period = domElements[i].getAttribute('data-period');
-    // console.log(scrollingText);
-    // console.log(JSON.parse(scrollingText));
+
     if (scrollingText) {
       //TxtType(<p class='typewrite'...</p>, JSON.parseArray of things to say'), 2000)
       new TxtType(domElements[i], JSON.parse(scrollingText), period);

@@ -4804,9 +4804,14 @@ body.minimal {
   }
 }
 .background-image-container {
+  /* background-size: contain; */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  /* background-position: top; */
+  /* background-position: bottom; */
+  background-position: 50% 75%;
+  max-height: 100vh;
+  max-width: 100vw;
 }
 .btn {
   -webkit-transition: all 0.2s linear;
