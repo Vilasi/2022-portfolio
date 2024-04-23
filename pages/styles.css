@@ -75,6 +75,9 @@
 }
 
 /* Margin Top */
+.mt-auto {
+  margin-top: auto;
+}
 .mt-1 {
   margin-top: var(--pt-1);
 }
@@ -95,6 +98,9 @@
 }
 
 /* Margin Bottom */
+.mb-auto {
+  margin-bottom: auto;
+}
 .mb-1 {
   margin-bottom: var(--pt-1);
 }
@@ -143,6 +149,15 @@
   margin-left: 3.5rem;
   margin-right: 3.5rem;
 }
+.ms-auto {
+  margin-left: auto;
+}
+.me-auto {
+  margin-right: auto;
+}
+.ms-2rem {
+  margin-left: 2rem;
+}
 
 .card-width {
   max-width: 35rem;
@@ -187,6 +202,10 @@
 
 .items-center {
   align-items: center;
+}
+
+.self-start {
+  align-self: start;
 }
 
 .flex-wrap {
