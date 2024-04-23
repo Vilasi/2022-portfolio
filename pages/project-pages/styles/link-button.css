@@ -1,0 +1,24 @@
+.link-button {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px solid gray;
+  color: black;
+}
+
+.link-button:hover {
+  /* background-color: radial-gradient(black, white); */
+  /* background-color: black; */
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1),
+    rgba(0, 0, 0, 0.3)
+  );
+  color: black;
+}
+
+.link-button:active {
+  position: relative;
+  top: 1px;
+}

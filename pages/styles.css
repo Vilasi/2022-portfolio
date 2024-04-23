@@ -34,6 +34,26 @@
   font-size: var(--fs-6);
 }
 
+/* Padding */
+.p-1 {
+  padding: var(--pt-1);
+}
+.p-2 {
+  padding: var(--pt-2);
+}
+.p-3 {
+  padding: var(--pt-3);
+}
+.p-4 {
+  padding: var(--pt-4);
+}
+.p-5 {
+  padding: var(--pt-5);
+}
+.p-6 {
+  padding: var(--pt-6);
+}
+
 /* Padding Top */
 .pt-1 {
   padding-top: var(--pt-1);
@@ -72,4 +92,111 @@
 }
 .mt-6 {
   margin-top: var(--pt-6);
+}
+
+/* Margin Bottom */
+.mb-1 {
+  margin-bottom: var(--pt-1);
+}
+.mb-2 {
+  margin-bottom: var(--pt-2);
+}
+.mb-3 {
+  margin-bottom: var(--pt-3);
+}
+.mb-4 {
+  margin-bottom: var(--pt-4);
+}
+.mb-5 {
+  margin-bottom: var(--pt-5);
+}
+.mb-6 {
+  margin-bottom: var(--pt-6);
+}
+
+.max-width-prose {
+  max-width: 65ch;
+}
+
+.mx-1 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.mx-2 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+.mx-3 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-4 {
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+}
+.mx-5 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.mx-6 {
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
+.card-width {
+  max-width: 35rem;
+}
+
+.card-container {
+  padding: 2rem 2rem !important;
+}
+
+.gif-image {
+  max-width: 45rem;
+}
+
+.font-size-lg {
+  font-size: 2rem !important;
+}
+
+.text-white {
+  color: #eaeaea !important;
+}
+
+.border {
+  border: 1px solid gray;
+}
+
+.border-rounded {
+  border-radius: 1rem;
+}
+
+.shadow {
+  /* box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1) !important; */
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
 }

@@ -3,6 +3,14 @@
   backdrop-filter: blur(2px);
 }
 
+.font-size-lg {
+  font-size: 2rem !important;
+}
+
+.text-white {
+  color: #eaeaea !important;
+}
+
 /* Write a media query for screens below 650px */
 @media (max-width: 650px) {
   .custom-hero-sizing {
